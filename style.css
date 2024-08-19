@@ -1,0 +1,34 @@
+.recipe {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recipe > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 30px;
+    width: 50px;
+    flex-wrap: wrap;
+}
+
+.recipe > div img {
+    width: 170px;
+}
+
+.search {
+    text-align: center;
+}
+
+#search-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-input:focus {
+    background-color: rgb(63, 80, 173);
+}
+
